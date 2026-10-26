@@ -1,0 +1,42 @@
+{
+  "name": "dsh-thinking-language",
+  "version": "0.1.0",
+  "description": "让 DeepSeek Harness 里的 agent 用指定语言思考与回复：一条系统提示词 section 即可把思考过程切换为简体中文，兼容标准/PTC/自定义预设，可配置思考与回复语言。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-desktop",
+    "thinking",
+    "reasoning",
+    "language",
+    "chinese",
+    "中文思考"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/plugin.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": "Alterssss"
+}

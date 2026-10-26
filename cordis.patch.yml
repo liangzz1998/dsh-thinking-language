@@ -1,0 +1,21 @@
+# dsh-thinking-language — DSH bundle patch
+#
+# 把插件挂进 profile 的配置树。name 必须与安装后的包名完全一致。
+#
+# 安装（DSH 完全退出后）：
+#   dsh plugin --profile desktop add link:D:\dsh-plugins\dsh-thinking-language
+# 或：
+#   dsh plugin --profile desktop add github:Alterssss/dsh-thinking-language
+#
+# 配置项：
+#   enabled   是否启用（默认 true）
+#   thinking  思考语言：zh-CN（默认，简体中文）| auto（不干预）
+#   answer    回复语言：auto（默认，跟随用户语言）| zh-CN（始终中文）
+#   extra     追加到系统提示词的自定义文本（默认空）
+- insert:
+    - id: thinking-language
+      name: dsh-thinking-language
+      config:
+        enabled: true
+        thinking: zh-CN
+        answer: auto
