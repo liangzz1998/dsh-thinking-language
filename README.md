@@ -22,7 +22,7 @@ DSH 需要先完全退出（含托盘）。
 ### 方式一：从 GitHub 安装
 
 ```bat
-dsh plugin --profile desktop add github:Alterssss/dsh-thinking-language
+dsh plugin --profile desktop add github:liangzz1998/dsh-thinking-language
 ```
 
 ### 方式二：本地目录安装（开发调试）
@@ -38,7 +38,7 @@ dsh plugin --profile desktop add link:D:\dsh-plugins\dsh-thinking-language
 ```json
 {
   "dependencies": {
-    "dsh-thinking-language": "github:Alterssss/dsh-thinking-language"
+    "dsh-thinking-language": "github:liangzz1998/dsh-thinking-language"
   },
   "dsh": {
     "profile": {

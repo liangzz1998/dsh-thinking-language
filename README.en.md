@@ -22,7 +22,7 @@ Quit DSH completely first (including the tray icon).
 From GitHub:
 
 ```bat
-dsh plugin --profile desktop add github:Alterssss/dsh-thinking-language
+dsh plugin --profile desktop add github:liangzz1998/dsh-thinking-language
 ```
 
 From a local checkout:

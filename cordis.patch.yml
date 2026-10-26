@@ -5,7 +5,7 @@
 # 安装（DSH 完全退出后）：
 #   dsh plugin --profile desktop add link:D:\dsh-plugins\dsh-thinking-language
 # 或：
-#   dsh plugin --profile desktop add github:Alterssss/dsh-thinking-language
+#   dsh plugin --profile desktop add github:liangzz1998/dsh-thinking-language
 #
 # 配置项：
 #   enabled   是否启用（默认 true）
